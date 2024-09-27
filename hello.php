@@ -12,6 +12,7 @@
 
     <div class="menu">
     <form>
+      <div class="icons">
         
         <label for="username">  username:</label><br>
    <input type="username" id="username"name =" username"><br><br>
@@ -24,7 +25,8 @@
 
 <label for="password"> password:</label>
 <input type="password" id="password" name="password"><br><br>
-
+</div>
+<div class="select">
 <label for="favouratefood">favourate food</label>
 <select name="favouratefood" id="favouratefood">
    <option value="proteins">proteins</option>
@@ -32,6 +34,7 @@
    <option value="fruits">fruits</option>
    <option value="white meat">white meat</option>
 </select>
+</div>
 
 <button type="submit" class="button">Submit</button>
 
