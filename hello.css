@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.menu{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+   
+}
+.menu form{
+    background-color: #fdd8de;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+    text-transform: capitalize;
+     margin-top: 6%;
+    padding: 8%;
+}
+.menu input {
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: lightgreen;
+}
+.menu select{
+    
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: lightgreen;
+
+}
+body{
+    background-color: rgb(4, 33, 44);
+    
+}
