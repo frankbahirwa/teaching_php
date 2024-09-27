@@ -12,33 +12,54 @@
    
 }
 .menu form{
-    background-color: #fdd8de;
+    background-color:white  ;
     font-size: 14px;
     border-radius: 14px;
     text-decoration: none;
     text-transform: capitalize;
-     margin-top: 6%;
-    padding: 8%;
+    margin-top: 6%;
+    padding: 3%;
     box-shadow: 0px 0px 12px lightgray;
     
 }
 .menu input {
-    font-size: 24px;
+    width: 9cm;
+    height: 1cm;
     border-radius: 10px;
-    border-color: lightgreen;
+    padding-left: 20px;
+    border:1px solid gray;
 
 }
 .menu select{
     
     font-size: 14px;
     border-radius: 10px;
-    border-color: lightgreen;
 
-}
-body{
-    background-color: rgb(4, 33, 44);
-    
 }
 .select{
     width: 12px;
+}
+#favouratefood{
+    font-weight: bold;
+    width:  9.6cm;
+    height: 1.2cm;
+}
+.button{
+    width: 9.6cm;
+    height: 1.2cm;
+    border-radius: 10px;
+    background-color: orangered;
+    border: 0;
+    margin-top:4rem;
+    color: white;
+    text-align: center;
+    line-height: 1.2cm;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 2%; 
+}
+
+#header{
+    color: orangered;
+    font-size: 20px;
 }
