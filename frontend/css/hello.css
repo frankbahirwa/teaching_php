@@ -25,6 +25,7 @@
 .menu input {
     width: 9cm;
     height: 1cm;
+    outline: 0;
     border-radius: 10px;
     padding-left: 20px;
     border:1px solid gray;
@@ -32,7 +33,6 @@
 }
 .menu select{
     
-    font-size: 14px;
     border-radius: 10px;
 
 }
@@ -43,6 +43,7 @@
     font-weight: bold;
     width:  9.6cm;
     height: 1.2cm;
+    outline: 0;
 }
 .button{
     width: 9.6cm;
