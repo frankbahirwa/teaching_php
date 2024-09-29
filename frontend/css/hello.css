@@ -6,6 +6,7 @@
 .menu{
     text-align: center;
     display: flex;
+    margin-top: 2cm;
     align-items: center;
     justify-content: center;
     /* display: flex; */
@@ -17,7 +18,7 @@
     border-radius: 14px;
     text-decoration: none;
     text-transform: capitalize;
-    margin-top: 6%;
+    margin-top: 10%;
     padding: 3%;
     box-shadow: 0px 0px 12px lightgray;
     

@@ -1,4 +1,6 @@
-
+<?php 
+require "../../backend/connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,29 +11,21 @@
 </head>
 <body>
 <div class="menu">
-<form>
+<form action="../../backend/create.php" method="post">
 
 <p id="header">Create Your Account</p> <br>
 
 <div class="icons">     
 <input type="username" id="username"name =" username" placeholder="username"><br><br>
-<input type="number" id="number"name="nuber" placeholder="phone number"><br><br>
 <input type="email" id="email"name="email" placeholder="email"><br><br>
 <input type="password" id="password" name="password" placeholder="password"><br><br>
 </div>
 
-<div class="select">
-<select name="favouratefood" id="favouratefood">
-<option value="" selected>select your favourite</option>
-   <option value="proteins">proteins</option>
-   <option value="vegetables">vegetables</option>
-   <option value="fruits">fruits</option>
-   <option value="white meat">white meat</option>
-</select>
-</div>
-<br>
-<button type="submit" class="button">Submit</button>
 
+<br>
+<button type="submit" class="button" name="button">Submit</button>
+<br><br>
+<a  style ="text-decoration:none;margin-top:1cm;"href="../../backend/read.php">reports</a>
 </form>
 </div>
 </body>
