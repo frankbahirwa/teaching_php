@@ -2,7 +2,7 @@
 
 <br><br>
 <table border="1" width="500px" style="border-collapse:collapse;">
-<tr>
+<tr style="background:teal;color:white;">
 <th>Id</th>
 <th>username</th>
 <th>email</th>
@@ -21,8 +21,8 @@ while($row = $table->fetch_assoc())
 <td><?php echo $row['username'] ?></td>
 <td><?php echo $row['email'] ?></td>
 <td>
-<a href="delete.php?del=<?php echo $row['id']?>">delete</a>
-<a href="">update</a>
+<a href="delete.php?del=<?php echo $row['id'];?>">delete</a>
+<a href="update.php?upd=<?php echo $row['id']; ?>">update</a>
 </td>
 </tr>
 <?php

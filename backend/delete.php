@@ -1,5 +1,6 @@
 <?php
 require "./connection.php";
+
 if(isset($_GET['del'])){
 $id = $_GET['del'];
 

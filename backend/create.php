@@ -11,7 +11,7 @@ $ins = $conn->query("INSERT INTO students (username, email,passwords) values('$u
 
 // verifying if the data are inserted
 if($ins){
-    echo "Data inserted successfully";
+   header('location:read.php');
 }else{
     echo "Failed to insert data";
 }
