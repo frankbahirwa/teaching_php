@@ -1,5 +1,3 @@
-
-
 <br><br>
 <table border="1" width="500px" style="border-collapse:collapse;">
 <tr style="background:teal;color:white;">
