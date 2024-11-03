@@ -12,6 +12,7 @@
     text-align: center;
     width: 86.9%;
     left:5.3cm;
+    bottom:0;
     background:lightgray;
     position:absolute;
     bottom: 0;

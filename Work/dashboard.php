@@ -88,8 +88,10 @@
         transition: background-color 0.3s;
     }
 
-    main{
-    position:relative;
+    main {
+        position: relative;
+        height: 100vh;
+        overflow-y: auto; 
     }
 
     @media (max-width: 768px) {
@@ -255,7 +257,7 @@
                     <a href="#" class="action-delete">Delete</a>
                 </td>
             </tr>
-            <tr>
+            <tr>    
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
                 <td data-label="F-Name">Bahirwa</td>

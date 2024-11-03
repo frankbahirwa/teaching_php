@@ -77,7 +77,7 @@
 </style>
 
 <div class="card">
-    <h3><?php echo htmlspecialchars($title); ?></h3>
-    <p><?php echo htmlspecialchars($description); ?></p>
-    <a href="<?php echo htmlspecialchars($link); ?>">View Details</a>
+    <h3><?php echo htmlspecialchars($title);?></h3>
+    <p><?php echo htmlspecialchars($description);?></p>
+    <a href="<?php echo htmlspecialchars($link);?>">View Details</a>
 </div>

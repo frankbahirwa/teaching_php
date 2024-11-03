@@ -160,7 +160,7 @@ cursor: pointer;
 
   <div class="profile">
     <img src="./images/treraste.jpg" alt="Profile">
-    <span>Bahirwa-Frank</span>
+    <span style="color:black;">Bahirwa-Frank</span>
     <div class="dropdown">
       <a href="#">Add Profile</a><br><br>
       <a href="#">Security & Privacy</a><br><br>
