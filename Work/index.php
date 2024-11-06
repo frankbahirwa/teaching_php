@@ -129,9 +129,12 @@
 <body>
     <div class="slider">
         <div class="slides">
-            <img src="./images/trsammie.jpg" alt="Image 1">
-            <img src="./images/benoit.jpg" alt="Image 2">
-            <img src="./images/trhappy.jpg" alt="Image 3">
+            <img src="./images/linda.jpg" width="150px">
+            <img src="./images/master.jpg"width="150px" >
+            <img src="./images/dos.jpg"width="150" >
+            <img src="./images/dm.jpg"width="150" >
+            <img src="./images/accountant.jpg"width="150" >
+            <img src="./images/trhappy.jpg"width="150" >
         </div>
         <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
         <button class="next" onclick="changeSlide(1)">&#10095;</button>
