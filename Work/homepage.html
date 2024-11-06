@@ -4,151 +4,300 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Mission High School Football</title>
-   <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+    <style>
+        /* Basic Reset and Layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        
+        /* Header Styling */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-.container {
-    display: flex;
-    flex: 1;
-    padding: 1rem;
-}
-
-/* Sidebar */
-aside {
-    width: 200px;
-    background-color: #f4f4f4;
-    padding: 1rem;
-}
-
-aside ul {
-    list-style-type: none;
-}
-
-aside ul li {
-    margin-bottom: 10px;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-
-main {
-    flex: 1;
-    padding: 1rem;
-}
-
-.slider {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    display: flex;
-    position: relative;
-}
-
-.slider img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-}
-
-
-.announcements {
-    width: 250px;
-    background-color: #f9f9f9;
-    padding: 1rem;
-}
-
-.announcements h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
+        header h1 {
+            font-size: 2rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        
+        /* Main Container */
+        .container {
+            display: flex;
+            flex: 1;
+            padding-left: 0.5rem;
+            gap: 1.5rem;
+            max-width: 60px;
+            /* margin: 0 auto; */
+        }
+        
+        /* Sidebar Styling */
+        aside {
+            width: 220px;
+            background-color: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        aside ul {
+            list-style-type: none;
+        }
+        
+        aside ul li {
+            margin-bottom: 15px;
+        }
+        
+        aside ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        aside ul li a:hover {
+            color: #333;
+        }
+        
+        /* Main Content Styling */
+        main {
+            flex: 2;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        main>h2 {
+            font-size: 1.8rem;
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
 
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-</style>
+        
+        /* Announcements Section */
+        .announcements {
+            width: 280px;
+            background-color: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .announcements h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #4CAF50;
+
+        }
+        
+        /* Footer Styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            margin-top: auto;
+            box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .navbar{
+            display:flex;
+            justify-content: end;
+        }
+       .navbar ul{
+        display: flex;
+       }
+       .navbar ul li{
+        list-style: none;
+        margin-top: 12px;
+        margin-right:20px;
+        
+        font-size: 18px;
+       }
+      .navbar ul li a{
+        text-decoration: none;
+        color:#4CAF50;
+        padding: 10px 12px;
+        border-radius: 5px;
+        transition: 0.1s ease-in;
+      }
+      .navbar ul li a:hover{
+        text-decoration: none;
+        background-color:whitesmoke;
+
+        color: seagreen;
+      }
+    
+
+
+              /* Slider */
+              .slider {
+            position: relative;
+            width: 24cm;
+            margin-bottom:1cm;
+            max-width: 1000px;
+            overflow: hidden;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .slider-images {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slider-images img {
+            width: calc(100% / 3); /* Show three images at once */
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .nav-button {
+            background: rgba(0, 0, 0, 0.5);
+            color: #ffd700;
+            border: none;
+            font-size: 2em;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+
+        .announce{
+            position: absolute;
+            right: 0;
+            top: 8cm;
+            width: ;
+        }
+
+    </style>
 
 </head>
 <body>
-
-   
+    
+    <!-- Header -->
+     
     <header>
-        <h1>WORLD MISSION HIGH SCHOOL FOOTBALL</h1>
+        <h1>World Mission High School Football</h1>
+        
+        <!-- <p>Welcome to our official page! Catch the latest news, events, and updates from our school's football team.</p> -->
     </header>
-
+    <nav>
+        <div class="navbar">
+        <ul>
+            <li>
+                <a href="./signup.php">Register</a></li>
+            <li><a href="./login.php">login</a></li>
+        </ul>
+        </div>
+     </nav>
+    
+    <!-- Main Container -->
     <div class="container">
         
+        <!-- Sidebar -->
         <aside>
             <ul>
-                <li><a href="https://www.ferwafa.rwa">FERWAFA</a></li>
-                <li><a href=" https://fifa.com">FIFA</a></li>
-                <li><a href="https://www.mon.gov.rw ">MINISANTE</a></li>
+                <li><a href="https://www.ferwafa.rwa" target="_blank">FERWAFA</a></li>
+                <li><a href="https://fifa.com" target="_blank">FIFA</a></li>
+                <li><a href="https://www.mon.gov.rw" target="_blank">MINISANTE</a></li>
             </ul>
         </aside>
-
         
+        <!-- Main Content -->
         <main>
-            <h1>Admnistration Members</h1>
-            <div class="slider" id="slider">
-                <img src="./images/linda.jpg" width="150PX" >
-                <img src="./images/master.jpg" width="150PX">
-                <img src="./images/dos.jpg" width="150PX">
-                <img src="./images/dm.jpg" width="150PX">
-                <img src="./images/accountant.jpg" width="150PX">
-                <img src="./images/trhappy.jpg" width="150PX">
-                <div class="stafftrs">
-                    <img src="./images/treraste.jpg" width="i50px"> 
-                    <img src="./images/trmath.jpg" width="i50px">
-                    <img src="./images/trphyisic.jpg" width="i50px">
-                    <img src="./images/trsammie.jpg" width="i50px">
-                    <img src="./images/trurban.jpg" width="i50px">
-                    <img src="./images/business tr.PNG" width="i50px">
-                    <img src="./images/yebale.jpg" width="i50px">
-
-
-                </div>
-            </div>
-            
-        </main>
-
-        
-        <section class="announcements">
-            <h2>Upcoming Match Announcements</h2>
-            <div id="dynamic-announcements">
-                
-            </div>
-        </section>
+            <h2>Administration Members</h2>
+            <!-- Slider Section -->
+    <div class="slider">
+        <div class="slider-images">
+            <!-- Replace these with actual images of football players -->
+            <img src="./images/accountant.jpg" alt="Football Player 1">
+            <img src="./images/benoit.jpg" alt="Football Player 2">
+            <img src="./images/trsammie.jpg" alt="Football Player 3">
+            <img src="./images/treraste.jpg" alt="Football Player 4">
+            <img src="./images/yebale.jpg" alt="Football Player 5">
+            <img src="./images/trurban.jpg" alt="Football Player 6">
+            <img src="./images/trphyisic.jpg" alt="Football Player 7">
+            <img src="./images/trmoise.jpg" alt="Football Player 8">
+            <img src="./images/walidah.jpg" alt="Football Player 9">
+            <img src="./images/trmoise.jpg" alt="Football Player 8">
+            <img src="./images/walidah.jpg" alt="Football Player 9">
+        </div>
+        <div class="slider-nav">
+            <button class="nav-button" onclick="prevSlide()">&#10094;</button>
+            <button class="nav-button" onclick="nextSlide()">&#10095;</button>
+        </div>
     </div>
 
-   
-    <footer>
-        <h4>world Mission High School &copy; <script> document.write(new Date().getFullYear()); </script></h4>
-    </footer>
+    <script>
+        // JavaScript for Slider
+        let currentIndex = 0;
+        const slides = document.querySelector('.slider-images');
+        const totalImages = slides.children.length;
+        const imagesPerSlide = 3; // Show 3 images at a time
+        const maxIndex = Math.ceil(totalImages / imagesPerSlide) - 1;
 
+        function showSlide(index) {
+            if (index > maxIndex) currentIndex = 0;
+            if (index < 0) currentIndex = maxIndex;
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        function nextSlide() {
+            currentIndex++;
+            showSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex--;
+            showSlide(currentIndex);
+        }
+
+        // Auto-slide every 3 seconds
+        setInterval(nextSlide, 3000);
+    </script>
+            </div>
+            <p>Meet our dedicated administration team! These individuals work hard behind the scenes to support our team and ensure smooth operations.</p>
+        </main>
+        
+        <!-- Announcements Section -->
+         <div class="announce">
+            <section class="announcements">
+                <h2>Upcoming Matches</h2>
+                <div id="dynamic-announcements">
+                    <p>Stay tuned for upcoming matches and events! This section will be updated with the latest news and schedules.</p>
+                </div>
+            </section>
+
+         </div>
+
+    </div>
     
-</body>
+    <!-- Footer -->
+    <footer>
+        <p>World Mission High School &copy; <script>document.write(new Date().getFullYear());</script></p>
+        <p>All rights reserved.</p>
+    </footer>
+    </body>
 </html>
