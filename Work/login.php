@@ -110,6 +110,7 @@ button:hover {
    </style>
 </head>
 <body>
+    <form action="dashboard.php">
 
     <main style="margin-top:3.5cm;">
         <div class="container">
@@ -128,7 +129,7 @@ button:hover {
                     <div>
                         <input type="password" id="confirm-password" placeholder="Confirm Password*" required />
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="dashboard.php">Login</button>
                 </form>
                 <p id="error-message" style="color: red;"></p>
                 <div class="socials">
@@ -141,7 +142,9 @@ button:hover {
                 </div>
             </div>
         </div>
+
     </main>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>

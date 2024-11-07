@@ -98,7 +98,7 @@
         
         /* Announcements Section */
         .announcements {
-            width: 280px;
+            width: 200px;
             background-color: #fff;
             padding: 1.5rem;
             border-radius: 8px;
@@ -163,6 +163,11 @@
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
+        .slider h1{
+            color:seagreen;
+            justify-content:center;
+            display:flex;
+        }
 
         .slider-images {
             display: flex;
@@ -174,6 +179,27 @@
             height: 300px;
             object-fit: cover;
         }
+        .staff{
+            display: flex;
+            transition: transform 0.5s ease;
+            
+
+
+        }
+        .staff img{
+            width: calc(100% / 3); /* Show three images at once */
+            height: 300px;
+            object-fit: cover;
+          
+        }
+        /*h1{
+            font-size: 1.8rem;
+            color: #4CAF50;
+            margin-bottom: 1rem;
+            justify-content: center;
+            text-align:center;
+            
+        }*/
 
         .nav-button {
             background: rgba(0, 0, 0, 0.5);
@@ -185,10 +211,10 @@
         }
 
         .announce{
-            position: absolute;
-            right: 0;
-            top: 8cm;
-            width: ;
+            position: absolute;color-scheme;
+            right: 11rem;
+            top: 3.6cm;
+            width: 1cm;
         }
 
     </style>
@@ -231,19 +257,31 @@
             <!-- Slider Section -->
     <div class="slider">
         <div class="slider-images">
-            <!-- Replace these with actual images of football players -->
-            <img src="./images/accountant.jpg" alt="Football Player 1">
-            <img src="./images/benoit.jpg" alt="Football Player 2">
-            <img src="./images/trsammie.jpg" alt="Football Player 3">
-            <img src="./images/treraste.jpg" alt="Football Player 4">
-            <img src="./images/yebale.jpg" alt="Football Player 5">
-            <img src="./images/trurban.jpg" alt="Football Player 6">
-            <img src="./images/trphyisic.jpg" alt="Football Player 7">
-            <img src="./images/trmoise.jpg" alt="Football Player 8">
-            <img src="./images/walidah.jpg" alt="Football Player 9">
-            <img src="./images/trmoise.jpg" alt="Football Player 8">
-            <img src="./images/walidah.jpg" alt="Football Player 9">
-        </div>
+            <!-- images of people who work hard for out team to be strong-->
+            <img src="./images/linda.jpg" width="150px">
+            <img src="./images/master.jpg" width="150px">
+            <img src="./images/dos.jpg" width="150px">
+            <img src="./images/dm.jpg"  width="150px">
+            <img src="./images/accountant.jpg"  width="150px">
+            <img src="./images/trhappy.jpg"  width="150px">
+            </div>
+            
+            <h1>Staff members</h1>
+            <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <img src="./images/trphyisic.jpg" width="150px"></div>
+        <img src="./images/trsammie.jpg" width="150px"></div>
+        <img src="./images/trurban.jpg" width="150px"></div>
+        <img src="./images/trmoise.jpg" width="150px"></div>
+        <img src="./images/walidah.jpg" width="150px"></div>
+        <img src="./images/trmath.jpg" width="150px"></div>
+        <img src="./images/business tr.PNG" width="150px"></div>
+        <img src="./images/yebale.jpg" width="150px"></div>
+    </div>
+
+
+           
+       
         <div class="slider-nav">
             <button class="nav-button" onclick="prevSlide()">&#10094;</button>
             <button class="nav-button" onclick="nextSlide()">&#10095;</button>
@@ -276,6 +314,11 @@
 
         // Auto-slide every 3 seconds
         setInterval(nextSlide, 3000);
+
+        
+   
+
+
     </script>
             </div>
             <p>Meet our dedicated administration team! These individuals work hard behind the scenes to support our team and ensure smooth operations.</p>
@@ -299,5 +342,7 @@
         <p>World Mission High School &copy; <script>document.write(new Date().getFullYear());</script></p>
         <p>All rights reserved.</p>
     </footer>
+
+
     </body>
 </html>

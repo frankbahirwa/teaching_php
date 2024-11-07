@@ -117,8 +117,8 @@ button:hover {
                 <img src="./images/logos.jpg" alt="Work Desk" class="max-w-full h-auto"/>
             </div>
             <div class="right-panel">
-                <h2>Register Here</h2>
-                <form id="login-form">
+                <h2>Add new player</h2>
+                <form id="login-form" action="dashboard.php">
                     <div>
                         <input type="text" id="email" placeholder="F-Name*" required />
                     </div>
@@ -148,7 +148,7 @@ button:hover {
                     <div>
                         <input type="password" id="password" placeholder=" Password*" required />
                     </div>
-                    <button type="submit">Login</button>
+                    <button type="submit">Register</button>
                 </form>
                 <p id="error-message" style="color: red;"></p>
                 <div class="socials">

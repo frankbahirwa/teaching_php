@@ -34,13 +34,13 @@
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: orange;
+    color: seagreen;
   }
 
   .logo img {
     height: 50px;
     width: 50px;
-    border-radius: 50%;
+    border-radius: 34px;
     margin-right: 10px;
   }
 
@@ -89,7 +89,7 @@
     width: 1cm;
     height: 1cm;
     border-radius:50%;
-    background-color: orange;
+    background-color: seagreen;
     color:white;
     text-align: center;
 
@@ -106,7 +106,7 @@
 
   }
   .logo button{
-background-color: orange;
+background-color: seagreen;
 position:fixed;
 left:14.2cm;
 color: white;
@@ -117,7 +117,7 @@ cursor: pointer;
                 
   }
   input::placeholder{
-    color: orange;
+    color: seagreen;
   }
 
   /* Responsive styles */
@@ -159,8 +159,8 @@ cursor: pointer;
 
 
   <div class="profile">
-    <img src="./images/treraste.jpg" alt="Profile">
-    <span style="color:black;">Bahirwa-Frank</span>
+    <img src="./images/anitha.jpg" alt="Profile">
+    <span style="color:black;">Anitha </span>
     <div class="dropdown">
       <a href="#">Add Profile</a><br><br>
       <a href="#">Security & Privacy</a><br><br>

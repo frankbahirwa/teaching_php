@@ -120,6 +120,7 @@
 </style>
 </head>
 <body>
+    <form action="homepage.php">
 
 <main>
 
@@ -141,8 +142,9 @@
     }
     ?>
 </div>
-
+<button  style="border:0; padding:5px; background:seagreen;"><a style="color:white; text-decoration:none;" href="./player.php">add new </a></button>
 <div class="table-container">
+    <button  style="border:0; padding:5px; background:seagreen;"><a style="color:white; text-decoration:none;" href="./player.php">add new </a></button>
     <table class="table">
         <thead>
             <tr>
@@ -162,8 +164,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -176,8 +178,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -190,8 +192,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -204,8 +206,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -218,8 +220,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -232,8 +234,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -246,8 +248,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -260,8 +262,8 @@
             <tr>    
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -274,8 +276,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -288,8 +290,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -302,8 +304,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -316,8 +318,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -330,8 +332,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -344,8 +346,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -358,8 +360,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -372,8 +374,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -386,8 +388,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -400,8 +402,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -414,8 +416,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -428,8 +430,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -442,8 +444,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -456,8 +458,8 @@
             <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -470,8 +472,8 @@
                         <tr>
                 <td class="checkbox-cell"><input type="checkbox" /></td>
                 <td data-label="Prayer_id">001</td>
-                <td data-label="F-Name">Bahirwa</td>
-                <td data-label="L-Name">Frank</td>
+                <td data-label="F-Name">Anitha</td>
+                <td data-label="L-Name">Uwihirwe</td>
                 <td data-label="Age">100</td>
                 <td data-label="Position">5</td>
                 <td data-label="Status"><span class="status-in-stock">Available</span></td>
@@ -487,7 +489,8 @@
     </table>
 </div>
 
-</main>                  
+</main>  
+</form>                
 
 </body>
 </html>

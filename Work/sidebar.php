@@ -22,8 +22,8 @@
   }
   
   .sidebar img {
-    width: 3cm;
-    height: 3cm;
+    width: 2.5cm;
+    height: 2.5cm;
     margin-top: 0.5cm;
     margin-left: 1cm;
     object-fit: cover;
@@ -47,6 +47,7 @@
     bottom: 0;
     left: 1.5cm;
   }
+
 
 
   .toggle-btn {
@@ -82,16 +83,16 @@
 
 <div class="sidebar" id="sidebar">
   <div class="logos">
-    <img src="./images/logos.jpg" alt="logos">
+    <img src="./images/logos.jpg"  alt="logos">
   </div>   
   <div class="links">
     <a href="dashboard.php">Home</a>
     <a href="meetings.php">Meetings</a>
-    <a href="contact.php">Contact</a>
+    <a href="contact.php">Participation</a>
     <a href="history.php">History</a>
   </div>   
   <div class="logout">
-    <a href="login.html" style="color:orange;text-decoration:none;">Logout</a>
+    <a href="homepage.php" style="color:orange;text-decoration:none;">Logout</a>
   </div>          
 </div>
 <script src="./js/sidebar.js"></script>

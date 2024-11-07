@@ -176,7 +176,7 @@
 
 <main>
 
-<button style="position:absolute; left:-13.5cm;top:-5cm;padding:20px;border:0;background:red;color:white;border-radius:10px;font-size:20px;cursor:pointer;">Schedule new </button>
+<!-- <button style="position:absolute; left:-13.5cm;top:-5cm;padding:20px;border:0;background:red;color:white;border-radius:10px;font-size:20px;cursor:pointer;">Schedule new </button> -->
 <div class="cards">
     <?php
     $cards = [
@@ -196,38 +196,8 @@
 
 
     <!-- Schedule Button -->
-    <button onclick="openModal()" style="position:absolute; left:-13.5cm;top:-5cm;padding:20px;border:0;background:red;color:white;border-radius:10px;font-size:20px;cursor:pointer;">Schedule new </button>
+    <button  style="position:absolute; left:-10.5cm;top:-5cm;padding:20px;border:0;background:seagreen;color:white;border-radius:10px;font-size:20px;cursor:pointer;"><a style="color:white; text-decoration:none;" href="./newmeeting.php">Schedule new</a> </button>
 
-    <!-- Modal Form -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <h2>Schedule New Meeting</h2>
-            <form>
-                <label for="meetingID">Meeting ID:</label>
-                <input type="text" id="meetingID" name="meetingID" required>
-
-                <label for="leader">Leader:</label>
-                <input type="text" id="leader" name="leader" required>
-
-                <label for="startAt">Start At:</label>
-                <input type="time" id="startAt" name="startAt" required>
-
-                <label for="endAt">Ends At:</label>
-                <input type="time" id="endAt" name="endAt" required>
-
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
-
-                <label for="location">Location:</label>
-                <input type="text" id="location" name="location" required>
-
-                <div style="display: flex; justify-content: space-between; margin-top: 1rem;">
-                    <button type="button" class="close-btn" onclick="closeModal()">Cancel</button>
-                    <button type="submit" class="submit-btn">Submit</button>
-                </div>
-            </form>
-        </div>
-    </div>
 
 <div class="table-container">
     <table class="table">
